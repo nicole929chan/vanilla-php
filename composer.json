@@ -1,0 +1,8 @@
+{
+    "name": "foolish/me",
+    "autoload": {
+        "psr-4": {
+            "Foolish\\": "src"
+        }
+    }
+}
