@@ -8,7 +8,7 @@ const routes = [
     path: '/',
     name: 'SummaryTable',
     component: SummaryTable,
-    props: (route) => ({ page: route.query.page }),
+    props: (route) => ({ page: parseInt(route.query.page) || 1 }),
   },
   {
     path: '/cargoes',

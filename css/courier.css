@@ -1,0 +1,15 @@
+.summary-query {
+    border: 1px solid #eee;
+    padding: 30px;
+}
+
+.pagination {
+    border: 1px solid #eee;
+    width: 60%;
+    padding: 30px;
+}
+
+.summary-block {
+    border: 1px solid #ccc;
+    padding: 30px;
+}
