@@ -23,12 +23,45 @@
         {
             "areaId": 1,
             "name": "新莊永和",
-            "total": 10
+            "total": 2,
+            "items": [
+                {
+                    "shipNo": "6001",
+                    "addr": "台北市新莊區xx路xx號",
+                    "driver": "kirby"
+                },
+                {
+                    "shipNo": "6002",
+                    "addr": "台北市新莊區yy路yy號",
+                    "driver": ""
+                }
+            ]
         },
         {
             "areaId": 2,
             "name": "蘆洲三重",
-            "total": 12
+            "total": 5,
+            "items": [
+                {
+                    "shipNo": "6003",
+                    "addr": "台北市新莊區zz路zz號",
+                    "driver": ""
+                }
+            ]
+        }
+    ],
+    "drivers": [
+        {
+            "id": "mario",
+            "name": "瑪利歐"
+        },
+        {
+            "id": "louige",
+            "name": "路易吉"
+        },
+        {
+            "id": "kirby",
+            "name": "卡比"
         }
     ]
 }

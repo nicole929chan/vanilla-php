@@ -17,12 +17,10 @@ export default {
   },
 
   getSummary(state) {
-    const perPage = 20
-    // console.log('getSummary: ', state.page)
-    if (state.page == 1) {
-      return apiClient.get('/summary?areaId=1')
-    } else {
-      return apiClient.get('/summary?areaId=2')
-    }
+    return apiClient.get('/summary')
+  },
+
+  getDrivers() {
+    return apiClient.get('/drivers')
   },
 }
