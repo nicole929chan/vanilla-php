@@ -3,7 +3,7 @@ const ModalView = {
     return { emit }
   },
   template: `
-    <div class="modal">
+    <div class="xmmmodal">
       <div class="overlay" @click="emit('closeModal')"></div>
       <div class="modal-card">
         <slot />
