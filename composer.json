@@ -1,8 +1,8 @@
 {
-    "name": "foolish/me",
+    "name": "river/me",
     "autoload": {
         "psr-4": {
-            "Foolish\\": "src"
+            "App\\": "src"
         }
     }
 }
